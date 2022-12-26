@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  @apply bg-orange-500 bg-opacity-40;
+}
+
+* {
+  @apply outline-none accent-orange-500;
+}
+
+img {
+  @apply pointer-events-none select-none;
+}
+
+h1 {
+  @apply text-3xl font-light;
+}
+
+.input-label {
+  @apply flex items-center gap-1 text-sm font-medium;
+}
