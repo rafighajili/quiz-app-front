@@ -27,9 +27,7 @@ const Modal = ({ children, title, isVisible, setIsVisible }) => {
             initial={{ y: -40 }}
             animate={{ y: 0 }}
             exit={{ y: -40 }}
-            className={`w-[90vw] sm:w-[600px] bg-white rounded-xl shadow-card-400 h-fit ${
-              isVisible ? "translate-y-0" : "-translate-y-[60px]"
-            } duration-300`}
+            className={`w-[90vw] sm:w-[600px] bg-white rounded-xl shadow-card-400 h-fit`}
           >
             {!!title && (
               <div className="p-4 border-b border-neutral-200 flex justify-between items-center">
